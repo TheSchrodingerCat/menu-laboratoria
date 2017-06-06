@@ -1,0 +1,27 @@
+
+.menuDesktop{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.options{
+	width: 16.66%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #db7878;
+	color: white;
+	font-weight: bold;
+}
+
+#option1, #option2, #option3, #option4, #option5{
+	border-right: 1px solid black;
+}
+
+.options:hover{
+	background: whitesmoke;
+	color: #db7878;
+	transition: 0.3s;
+}
