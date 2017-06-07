@@ -6,6 +6,10 @@
 }
 
 @media (min-width: 200px) and (max-width: 699px){
+	.menuResponsive{
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+
 	.menuDesktop, .options{
 		display: none;
 	}

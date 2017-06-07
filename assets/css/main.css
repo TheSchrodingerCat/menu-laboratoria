@@ -37,14 +37,24 @@
 
 .menuResponsive{
 	width: 100%;
-	padding: 1%;
-	font-size: 30px;
+	height: 40px;
 	font-weight: bold;
+}
+
+.fa.fa-bars{
+	padding: 1.5% 2%;
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+.cont-menuRes{
+	width: 100%;
 }
 
 .option-res{
 	width: 100%;
 	padding: 2%;
 	font-size: 15px;
+	border-bottom: 1px solid black;
 }
 
