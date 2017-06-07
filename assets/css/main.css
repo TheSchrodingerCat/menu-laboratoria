@@ -1,8 +1,10 @@
 
+/*------------------- menu desktop -----------------------*/
 .menuDesktop{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	cursor: pointer;
 }
 
 .options{
@@ -25,3 +27,18 @@
 	color: #db7878;
 	transition: 0.3s;
 }
+
+
+/*------------------ menu responsive ----------------------*/
+.menuResponsive{
+	width: 100%;
+	padding: 1%;
+	background: black;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+.hide{
+	display: none;
+}
+
