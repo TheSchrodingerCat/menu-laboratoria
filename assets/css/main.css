@@ -30,15 +30,21 @@
 
 
 /*------------------ menu responsive ----------------------*/
+.menuResponsive, .option-res{
+	background: #343131;
+	color: whitesmoke;
+}
+
 .menuResponsive{
 	width: 100%;
 	padding: 1%;
-	background: black;
-	color: whitesmoke;
+	font-size: 30px;
 	font-weight: bold;
 }
 
-.hide{
-	display: none;
+.option-res{
+	width: 100%;
+	padding: 2%;
+	font-size: 15px;
 }
 
